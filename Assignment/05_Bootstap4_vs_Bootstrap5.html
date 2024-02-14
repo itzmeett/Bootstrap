@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CommonStyles.css">
+    <title>Bootstrap4 vs Bootstrap5</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            margin: 25px auto;
+        }
+
+        tbody tr td {
+            padding: 14px 10px;
+            font-size: 12.5pt;
+            vertical-align: middle;
+        }
+
+        tr{
+            border: solid 1px black;
+        }
+            
+    </style>
+</head>
+
+<body>
+    <div class="question">
+        5. What is the difference between Bootstrap 4 and Bootstrap 5
+    </div>
+    <div class="answer">
+        <table>
+            <thead>
+                <tr>
+                    <th>BASIS OF</th>
+                    <th>BOOTSTRAP 4</th>
+                    <th>BOOTSTRAP 5</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Grid System</strong></td>
+                    <td>It has 5 tier (xs, sm, md, lg, xl).</td>
+                    <td>It has 6 tier (xs, sm, md, lg, xl, xxl).</td>
+                </tr>
+                <tr>
+                    <td><strong>Color</strong></td>
+                    <td>It has limited colors.</td>
+                    <td>Extra colors added with the looks, A card improved color palette. there are various shades
+                        available to choose.</td>
+                </tr>
+                <tr>
+                    <td><strong>Jquery</strong></td>
+                    <td>It has jquery and all related plugins.</td>
+                    <td>Jquery is removed and switched to vanilla JS with some working plugins</td>
+                </tr>
+                <tr>
+                    <td><strong>Internet Explorer</strong></td>
+                    <td>Bootstrap 4 supports both IE 10 and 11.</td>
+                    <td>Bootstrap 5 doesn’t support IE 10 and 11.</td>
+                </tr>
+                <tr>
+                    <td><strong>Form elements</strong></td>
+                    <td>Radio buttons, checkboxes have different look in different OS and browsers. The form uses
+                        whatever default browsers provide.</td>
+                    <td>The look of form elements will not change, on different OS or browser. The forms can be
+                        customized and form controls can be added, they would not depend on browser.&nbsp;</td>
+                </tr>
+                <tr>
+                    <td><strong>Utilities API</strong></td>
+                    <td>We cannot modify utilities in bootstrap 4</td>
+                    <td>Bootstrap 5 gave freedom to modify and also create our own utility</td>
+                </tr>
+                <tr>
+                    <td><strong>Gutter</strong></td>
+                    <td>We use .glutter with fontsize in px</td>
+                    <td>We use .g* with fontsize in rem</td>
+                </tr>
+                <tr>
+                    <td><strong>Vertical Classes</strong></td>
+                    <td>Columns can be positioned relative</td>
+                    <td>Columns cannot be positioned relative</td>
+                </tr>
+                <tr>
+                    <td><strong>Bootstrap Icons</strong></td>
+                    <td>Bootstrap 4 doesn’t have its own SVG icons, we have to use font-awesome for icons.</td>
+                    <td>Bootstrap 5 have its own SVG icons</td>
+                </tr>
+                <tr>
+                    <td><strong>Jumbotron</strong></td>
+                    <td>It supports.</td>
+                    <td>It doesn’t support jumbotron.</td>
+                </tr>
+                <tr>
+                    <td><strong>Card deck</strong></td>
+                    <td>The card deck is used to create a set of cards with equal width and height.</td>
+                    <td>Card deck class in removed in bootstrap</td>
+                </tr>
+                <tr>
+                    <td><strong>Navbar</strong></td>
+                    <td>We have inline-block property and we will get white dropdown as default for dropdown-menu-dark
+                        class.</td>
+                    <td>Inline-block property is removed and we will get black dropdown as default for
+                        dropdown-menu-dark class.</td>
+                </tr>
+                <tr>
+                    <td><strong>Static Site Generator</strong></td>
+                    <td>Bootstrap 4 uses Jekyll software.</td>
+                    <td>Bootstrap 5 uses Hugo software as it is fast static site generator.</td>
+                </tr>
+                <tr>
+                    <td><strong>flexbox grid</strong></td>
+                    <td>this makes easier to implement vertical designs, and the columns and rows can easily be
+                        implemented. the classes justify-center-content can directly be used to align according to the
+                        requirement.</td>
+                    <td>advanced grid system is made available , also columns don’t have relative positions. &nbsp;</td>
+                </tr>
+                <tr>
+                    <td><strong>RTL Support</strong></td>
+                    <td>It does not enable RTL(Right to Left) switching.</td>
+                    <td>It enables RTL(Right to Left) switching.</td>
+                </tr>
+                <tr>
+                    <td><strong>Offcanvas Component</strong></td>
+                    <td>It does not support Offcanvas Component.</td>
+                    <td>It supports Offcanvas Component(that is it is available now).</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="btn-parent">
+        <button class="btn"><a href="06_Button_order.html">Next</a></button>
+    </div>
+</body>
+
+</html>

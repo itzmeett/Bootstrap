@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CommonStyles.css">
+    <title>Bootstrap Text</title>
+    <style>
+        table.ws-table-all {
+            margin: 20px 0;
+        }
+
+        .ws-table-all {
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            display: table;
+            border: 1px solid #ccc;
+        }
+
+        /* .ws-table-all tr:nth-child(even) {
+            background-color: #38444d;
+            color: #ddd
+        } */
+
+        .ws-table-all {
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            display: table;
+            border: 1px solid #ccc
+        }
+
+        /* 
+        .ws-table-all tr {
+            border-bottom: 1px solid #ddd
+        } */
+
+        /* .ws-table-all tr:nth-child(odd) {
+            background-color: #fff
+        }
+
+        .ws-table-all tr:nth-child(even) {
+            background-color: #E7E9EB
+        } */
+
+        .ws-table-all td,
+        .ws-table-all th {
+            padding: 8px 8px;
+            display: table-cell;
+            text-align: left;
+            vertical-align: top
+        }
+
+        .ws-table-all th:first-child,
+        .ws-table-all td:first-child {
+            padding-left: 16px
+        }
+
+        .ws-table-all tr {
+            border: 1px solid black;
+        }
+
+        .w3-btn {
+            background-color: #04AA6D;
+            color: white;
+            text-decoration: none;
+        }
+
+        .w3-btn {
+            background-color: #04AA6D;
+            border-radius: 5px;
+            font-size: 17px;
+            font-family: 'Source Sans Pro', sans-serif;
+            padding: 7px 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="question">
+        3. What are the default Bootstrap text settings?
+    </div>
+    <div class="answer">
+        <p>Bootstrap's global default font-size is 14px, with a line-height of 1.428.</p>
+
+        <p>This is applied to the</p>
+
+        <p>&lt;body&gt; element and all paragraphs (&lt;p&gt;).</p>
+        <p>In addition, all
+            &lt;p&gt; elements have a bottom margin that equals half their computed line-height (10px by default).</p>
+    </div>
+    <table class="ws-table-all notranslate">
+        <tbody>
+            <tr>
+                <th style="width:25%;">Class</th>
+                <th style="width:63%;">Description</th>
+            </tr>
+            <tr>
+                <td><code class="w3-codespan">.lead</code></td>
+                <td>Makes a paragraph stand out</td>
+            </tr>
+            <tr>
+                <td><code class="w3-codespan">.small</code></td>
+                <td>Indicates smaller text (set to 85% of the size of the parent)</td>
+            </tr>
+            <tr>
+                <td><code class="w3-codespan">.text-left</code></td>
+                <td>Indicates left-aligned text</td>
+            </tr>
+            <tr>
+                <td><code class="w3-codespan">.text-center</code></td>
+                <td>Indicates center-aligned text</td>
+            </tr>
+            <tr>
+                <td><code class="w3-codespan">.text-right</code></td>
+                <td>Indicates right-aligned text</td>
+            </tr>
+            <tr>
+                <td><code class="w3-codespan">.text-justify</code></td>
+                <td>Indicates justified text</td>
+            </tr>
+            <tr>
+                <td><code class="w3-codespan">.text-nowrap</code></td>
+                <td>Indicates no wrap text</td>
+            </tr>
+            <tr>
+                <td><code class="w3-codespan">.text-lowercase</code></td>
+                <td>Indicates lowercased text</td>
+            </tr>
+            <tr>
+                <td><code class="w3-codespan">.text-uppercase</code></td>
+                <td>Indicates uppercased text</td>
+            </tr>
+            <tr>
+                <td><code class="w3-codespan">.text-capitalize</code></td>
+                <td>Indicates capitalized text</td>
+            </tr>
+            <tr>
+                <td><code class="w3-codespan">.initialism</code></td>
+                <td>Displays the text inside an <code class="w3-codespan">&lt;abbr&gt;</code> element in a slightly
+                    smaller font size</td>
+            </tr>
+            <tr>
+                <td><code class="w3-codespan">.list-unstyled</code></td>
+                <td>Removes the default list-style and left margin on list items (works on both <code
+                        class="w3-codespan">&lt;ul&gt;</code> and <code class="w3-codespan">&lt;ol&gt;</code>). This
+                    class only applies to immediate children list items (to remove the default list-style from any
+                    nested lists, apply this class to any nested lists as well)</td>
+            </tr>
+            <tr>
+                <td><code class="w3-codespan">.list-inline</code></td>
+                <td>Places all list items on a single line</td>
+            </tr>
+            <tr>
+                <td><code class="w3-codespan">.dl-horizontal</code></td>
+                <td>Lines up the terms (<code class="w3-codespan">&lt;dt&gt;</code>) and descriptions (<code
+                        class="w3-codespan">&lt;dd&gt;</code>) in
+                    <code class="w3-codespan">&lt;dl&gt;</code> elements side-by-side. Starts off like default <code
+                        class="w3-codespan">&lt;dl&gt;</code>s, but when the browser window expands, it will line up
+                    side-by-side
+                </td>
+            </tr>
+            <tr>
+                <td><code class="w3-codespan">.pre-scrollable</code></td>
+                <td>Makes a <code class="w3-codespan">&lt;pre&gt;</code> element scrollable</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="btn-parent">
+        <button class="btn"><a href="04_Grid_system.html">Next</a></button>
+    </div>
+</body>
+
+</html>
